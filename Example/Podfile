@@ -1,0 +1,7 @@
+use_frameworks!
+target 'Delugion_Tests' do
+  pod 'Delugion', :path => '../'
+  
+  pod 'Quick', '~> 1.0.0'
+  pod 'Nimble', '~> 5.1.1'
+end
