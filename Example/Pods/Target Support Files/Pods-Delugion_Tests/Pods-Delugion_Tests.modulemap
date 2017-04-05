@@ -1,0 +1,6 @@
+framework module Pods_Delugion_Tests {
+  umbrella header "Pods-Delugion_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,20 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		557D5F851F989ECC002588C5 /* GetHostsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D5F841F989ECC002588C5 /* GetHostsSpec.swift */; };
+		557D5F891F98A185002588C5 /* GetHostsValidHost.json in Resources */ = {isa = PBXBuildFile; fileRef = 557D5F881F98A185002588C5 /* GetHostsValidHost.json */; };
+		557D5F8D1F98A344002588C5 /* GetHostsTwoValidHosts.json in Resources */ = {isa = PBXBuildFile; fileRef = 557D5F8C1F98A344002588C5 /* GetHostsTwoValidHosts.json */; };
+		557D5F901F98B0DF002588C5 /* GetHostStatusSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557D5F8F1F98B0DF002588C5 /* GetHostStatusSpec.swift */; };
+		557D5F941F98B1B0002588C5 /* GetHostStatusValidHost.json in Resources */ = {isa = PBXBuildFile; fileRef = 557D5F931F98B1B0002588C5 /* GetHostStatusValidHost.json */; };
+		558168641EA79701007622CB /* InvalidJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 558168631EA79701007622CB /* InvalidJson.json */; };
+		558168661EA798FA007622CB /* LoginNoPassword.json in Resources */ = {isa = PBXBuildFile; fileRef = 558168651EA798FA007622CB /* LoginNoPassword.json */; };
+		5581686A1EA79961007622CB /* LoginFalse.json in Resources */ = {isa = PBXBuildFile; fileRef = 558168691EA79961007622CB /* LoginFalse.json */; };
+		5581686C1EA799B0007622CB /* LoginTrue.json in Resources */ = {isa = PBXBuildFile; fileRef = 5581686B1EA799B0007622CB /* LoginTrue.json */; };
+		5581686E1EA79F6A007622CB /* InfoSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5581686D1EA79F6A007622CB /* InfoSpec.swift */; };
+		558168701EA7A27F007622CB /* NotAuthenticated.json in Resources */ = {isa = PBXBuildFile; fileRef = 5581686F1EA7A27E007622CB /* NotAuthenticated.json */; };
+		559EC1F61EA379F200D43526 /* NetworkManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559EC1F51EA379F200D43526 /* NetworkManagerMock.swift */; };
+		55A65E251F9A63BB00FFBFC7 /* ConnectedSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A65E241F9A63BB00FFBFC7 /* ConnectedSpec.swift */; };
+		55A65E271F9A640600FFBFC7 /* ConnectedTrue.json in Resources */ = {isa = PBXBuildFile; fileRef = 55A65E261F9A640600FFBFC7 /* ConnectedTrue.json */; };
+		55A65E291F9A647400FFBFC7 /* ConnectedFalse.json in Resources */ = {isa = PBXBuildFile; fileRef = 55A65E281F9A647400FFBFC7 /* ConnectedFalse.json */; };
+		55B404A21F9733E900B229F0 /* CheckSessionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B404A11F9733E900B229F0 /* CheckSessionSpec.swift */; };
+		55B404A71F97348500B229F0 /* CheckSessionResultFalse.json in Resources */ = {isa = PBXBuildFile; fileRef = 55B404A61F97348500B229F0 /* CheckSessionResultFalse.json */; };
+		55B404A91F97356C00B229F0 /* CheckSessionResultTrue.json in Resources */ = {isa = PBXBuildFile; fileRef = 55B404A81F97356C00B229F0 /* CheckSessionResultTrue.json */; };
+		607FACEC1AFB9204008FA782 /* LoginSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* LoginSpec.swift */; };
 		B6399E2AD1F96B64E2CD9634 /* Pods_Delugion_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A5C4589016CBA05918CAC1D /* Pods_Delugion_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2080AF11EAB94B4AD592AA7C /* Pods-Delugion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delugion_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Delugion_Tests/Pods-Delugion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		40855D91D5F6D15A29C82E80 /* Pods-Delugion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Delugion_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Delugion_Tests/Pods-Delugion_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		557D5F841F989ECC002588C5 /* GetHostsSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHostsSpec.swift; sourceTree = "<group>"; };
+		557D5F881F98A185002588C5 /* GetHostsValidHost.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetHostsValidHost.json; sourceTree = "<group>"; };
+		557D5F8C1F98A344002588C5 /* GetHostsTwoValidHosts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetHostsTwoValidHosts.json; sourceTree = "<group>"; };
+		557D5F8F1F98B0DF002588C5 /* GetHostStatusSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHostStatusSpec.swift; sourceTree = "<group>"; };
+		557D5F931F98B1B0002588C5 /* GetHostStatusValidHost.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = GetHostStatusValidHost.json; sourceTree = "<group>"; };
+		558168631EA79701007622CB /* InvalidJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InvalidJson.json; sourceTree = "<group>"; };
+		558168651EA798FA007622CB /* LoginNoPassword.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoginNoPassword.json; sourceTree = "<group>"; };
+		558168691EA79961007622CB /* LoginFalse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoginFalse.json; sourceTree = "<group>"; };
+		5581686B1EA799B0007622CB /* LoginTrue.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LoginTrue.json; sourceTree = "<group>"; };
+		5581686D1EA79F6A007622CB /* InfoSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoSpec.swift; sourceTree = "<group>"; };
+		5581686F1EA7A27E007622CB /* NotAuthenticated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NotAuthenticated.json; sourceTree = "<group>"; };
+		559EC1F51EA379F200D43526 /* NetworkManagerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerMock.swift; sourceTree = "<group>"; };
+		55A65E241F9A63BB00FFBFC7 /* ConnectedSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedSpec.swift; sourceTree = "<group>"; };
+		55A65E261F9A640600FFBFC7 /* ConnectedTrue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ConnectedTrue.json; sourceTree = "<group>"; };
+		55A65E281F9A647400FFBFC7 /* ConnectedFalse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ConnectedFalse.json; sourceTree = "<group>"; };
+		55B404A11F9733E900B229F0 /* CheckSessionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckSessionSpec.swift; sourceTree = "<group>"; };
+		55B404A61F97348500B229F0 /* CheckSessionResultFalse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CheckSessionResultFalse.json; sourceTree = "<group>"; };
+		55B404A81F97356C00B229F0 /* CheckSessionResultTrue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CheckSessionResultTrue.json; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Delugion_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Delugion_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* LoginSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSpec.swift; sourceTree = "<group>"; };
 		6A5C4589016CBA05918CAC1D /* Pods_Delugion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Delugion_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6C2B1F3BE5004C48A7452C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D3DC4C63A8185E7F56DFE50E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F07F8626ED7551ABD7C76BDA /* Delugion.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Delugion.podspec; path = ../Delugion.podspec; sourceTree = "<group>"; };
+		C6C2B1F3BE5004C48A7452C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		D3DC4C63A8185E7F56DFE50E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		F07F8626ED7551ABD7C76BDA /* Delugion.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Delugion.podspec; path = ../../Delugion.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,14 +71,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55515E4D1F98930000DD6F02 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				607FACEB1AFB9204008FA782 /* LoginSpec.swift */,
+				558168651EA798FA007622CB /* LoginNoPassword.json */,
+				558168691EA79961007622CB /* LoginFalse.json */,
+				5581686B1EA799B0007622CB /* LoginTrue.json */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		557D5F831F989E5F002588C5 /* Get Hosts */ = {
+			isa = PBXGroup;
+			children = (
+				557D5F841F989ECC002588C5 /* GetHostsSpec.swift */,
+				557D5F881F98A185002588C5 /* GetHostsValidHost.json */,
+				557D5F8C1F98A344002588C5 /* GetHostsTwoValidHosts.json */,
+			);
+			name = "Get Hosts";
+			sourceTree = "<group>";
+		};
+		557D5F8E1F98B0C3002588C5 /* Get Host Status */ = {
+			isa = PBXGroup;
+			children = (
+				557D5F8F1F98B0DF002588C5 /* GetHostStatusSpec.swift */,
+				557D5F931F98B1B0002588C5 /* GetHostStatusValidHost.json */,
+			);
+			name = "Get Host Status";
+			sourceTree = "<group>";
+		};
+		5581685F1EA78ECC007622CB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				559EC1F51EA379F200D43526 /* NetworkManagerMock.swift */,
+			);
+			name = Mock;
+			sourceTree = "<group>";
+		};
+		558168601EA7921C007622CB /* Json Files */ = {
+			isa = PBXGroup;
+			children = (
+				558168631EA79701007622CB /* InvalidJson.json */,
+				5581686F1EA7A27E007622CB /* NotAuthenticated.json */,
+			);
+			name = "Json Files";
+			sourceTree = "<group>";
+		};
+		55A65E231F9A63A500FFBFC7 /* Connected */ = {
+			isa = PBXGroup;
+			children = (
+				55A65E241F9A63BB00FFBFC7 /* ConnectedSpec.swift */,
+				55A65E261F9A640600FFBFC7 /* ConnectedTrue.json */,
+				55A65E281F9A647400FFBFC7 /* ConnectedFalse.json */,
+			);
+			name = Connected;
+			sourceTree = "<group>";
+		};
+		55B404A31F97345200B229F0 /* Check Session */ = {
+			isa = PBXGroup;
+			children = (
+				55B404A11F9733E900B229F0 /* CheckSessionSpec.swift */,
+				55B404A61F97348500B229F0 /* CheckSessionResultFalse.json */,
+				55B404A81F97356C00B229F0 /* CheckSessionResultTrue.json */,
+			);
+			name = "Check Session";
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACE81AFB9204008FA782 /* Tests */,
-				607FACD11AFB9204008FA782 /* Products */,
-				6EEE831D992285349A1C3F3C /* Pods */,
 				6492E35183119D64BCB7A65B /* Frameworks */,
+				6EEE831D992285349A1C3F3C /* Pods */,
+				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				607FACD11AFB9204008FA782 /* Products */,
+				607FACE81AFB9204008FA782 /* Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,8 +160,15 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				5581685F1EA78ECC007622CB /* Mock */,
+				55B404A31F97345200B229F0 /* Check Session */,
+				55515E4D1F98930000DD6F02 /* Login */,
+				55A65E231F9A63A500FFBFC7 /* Connected */,
+				557D5F8E1F98B0C3002588C5 /* Get Host Status */,
+				557D5F831F989E5F002588C5 /* Get Hosts */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				558168601EA7921C007622CB /* Json Files */,
+				5581686D1EA79F6A007622CB /* InfoSpec.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -68,17 +178,17 @@
 			children = (
 				607FACEA1AFB9204008FA782 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
 				F07F8626ED7551ABD7C76BDA /* Delugion.podspec */,
-				C6C2B1F3BE5004C48A7452C9 /* README.md */,
 				D3DC4C63A8185E7F56DFE50E /* LICENSE */,
+				C6C2B1F3BE5004C48A7452C9 /* README.md */,
 			);
-			name = "Podspec Metadata";
+			path = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 		6492E35183119D64BCB7A65B /* Frameworks */ = {
@@ -128,16 +238,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -165,6 +271,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5581686C1EA799B0007622CB /* LoginTrue.json in Resources */,
+				55A65E291F9A647400FFBFC7 /* ConnectedFalse.json in Resources */,
+				558168701EA7A27F007622CB /* NotAuthenticated.json in Resources */,
+				557D5F8D1F98A344002588C5 /* GetHostsTwoValidHosts.json in Resources */,
+				558168661EA798FA007622CB /* LoginNoPassword.json in Resources */,
+				558168641EA79701007622CB /* InvalidJson.json in Resources */,
+				55B404A71F97348500B229F0 /* CheckSessionResultFalse.json in Resources */,
+				557D5F891F98A185002588C5 /* GetHostsValidHost.json in Resources */,
+				557D5F941F98B1B0002588C5 /* GetHostStatusValidHost.json in Resources */,
+				5581686A1EA79961007622CB /* LoginFalse.json in Resources */,
+				55A65E271F9A640600FFBFC7 /* ConnectedTrue.json in Resources */,
+				55B404A91F97356C00B229F0 /* CheckSessionResultTrue.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,13 +295,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Delugion_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5B3F88761F5061045E5F0EE3 /* [CP] Copy Pods Resources */ = {
@@ -207,9 +328,22 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Delugion_Tests/Pods-Delugion_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Delugion/Delugion.framework",
+				"${BUILT_PRODUCTS_DIR}/Himotoki/Himotoki.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Delugion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Himotoki.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -223,7 +357,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				559EC1F61EA379F200D43526 /* NetworkManagerMock.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* LoginSpec.swift in Sources */,
+				55B404A21F9733E900B229F0 /* CheckSessionSpec.swift in Sources */,
+				557D5F901F98B0DF002588C5 /* GetHostStatusSpec.swift in Sources */,
+				5581686E1EA79F6A007622CB /* InfoSpec.swift in Sources */,
+				55A65E251F9A63BB00FFBFC7 /* ConnectedSpec.swift in Sources */,
+				557D5F851F989ECC002588C5 /* GetHostsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,14 +378,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -285,14 +431,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -321,19 +473,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2080AF11EAB94B4AD592AA7C /* Pods-Delugion_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -341,15 +491,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40855D91D5F6D15A29C82E80 /* Pods-Delugion_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Tests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
